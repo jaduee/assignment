@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #f0f5ef;
+    text-align: center;
+    
+}
+
+main
+{
+    background-color: #f5f4f2;
+    display: grid; 
+    grid-template-columns: 1fr 9fr; 
+    grid-gap:0px;
+    
+    
+}
+
+aside {
+    background-color: #f5f4f2;
+   
+}
+
+
+article {
+    background-color: #f5f4f2;
+    overflow-y: auto;
+    display: grid;
+    grid-gap:0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 73vw;
+}
+
+
+
+h2 {
+    line-height: 30px;
+    font-family: "Helvetica", "Arial","SimSun","宋体","STSong","华文宋体", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: left;
+    font-family: "Helvetica", "Arial","SimHei","黑体","SimSun","宋体", sans-serif;
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 1.75em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.jieqi {
+    overflow: hidden;
+}
+
+h3 {
+    font-family: "Helvetica", "Arial","KaiTi","楷体","STKaiTi","华文楷体", sans-serif;
+    font-size: 28px;
+}
+
+
+
+.picture {
+    width: 1080px;
+    height: 234px;
+    object-fit: contain;
+}
+
+footer {
+    text-align: center;
+    background-color: #f0f5ef;
+}
